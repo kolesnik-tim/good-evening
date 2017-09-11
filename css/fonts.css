@@ -1,0 +1,140 @@
+@font-face
+{
+    font-family: 'LifehackSans';
+    font-weight: 800;
+    font-style: normal; 
+
+    src: url('../font/LifehackSans-Bold.eot');
+    src: url('../font/LifehackSans-Bold.eot?#iefix') format('embedded-opentype'), url('../font/LifehackSans-Bold.woff') format('woff'), url('../font/LifehackSans-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackSans';
+    font-weight: 500;
+    font-style: normal; 
+
+    src: url('../font/LifehackSans-Medium.eot');
+    src: url('../font/LifehackSans-Medium.eot?#iefix') format('embedded-opentype'), url('../font/LifehackSans-Medium.woff') format('woff'), url('../font/LifehackSans-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackItalic';
+    font-weight: bold;
+    font-style: italic; 
+
+    src: url('../font/LifehackItalic-Bold.eot');
+    src: url('../font/LifehackItalic-Bold.eot?#iefix') format('embedded-opentype'), url('../font/LifehackItalic-Bold.woff') format('woff'), url('../font/LifehackItalic-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Lifehack';
+    font-weight: normal;
+    font-style: italic; 
+
+    src: url('../font/LifehackItalic-Regular.eot');
+    src: url('../font/LifehackItalic-Regular.eot?#iefix') format('embedded-opentype'), url('../font/LifehackItalic-Regular.woff') format('woff'), url('../font/LifehackItalic-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackGoodies';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../font/LifehackGoodies-Regular.eot');
+    src: url('../font/LifehackGoodies-Regular.eot?#iefix') format('embedded-opentype'), url('../font/LifehackGoodies-Regular.woff') format('woff'), url('../font/LifehackGoodies-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackItalic';
+    font-weight: 500;
+    font-style: italic; 
+
+    src: url('../font/LifehackItalic-Medium.eot');
+    src: url('../font/LifehackItalic-Medium.eot?#iefix') format('embedded-opentype'), url('../font/LifehackItalic-Medium.woff') format('woff'), url('../font/LifehackItalic-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackSans';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../font/LifehackSans-Regular.eot');
+    src: url('../font/LifehackSans-Regular.eot?#iefix') format('embedded-opentype'), url('../font/LifehackSans-Regular.woff') format('woff'), url('../font/LifehackSans-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Lifehack';
+    font-weight: bold;
+    font-style: normal; 
+
+    src: url('../font/Lifehack-Bold.eot');
+    src: url('../font/Lifehack-Bold.eot?#iefix') format('embedded-opentype'), url('../font/Lifehack-Bold.woff') format('woff'), url('../font/Lifehack-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Lifehack';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../font/Lifehack-Regular.eot');
+    src: url('../font/Lifehack-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Lifehack-Regular.woff') format('woff'), url('../font/Lifehack-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'LifehackBasic';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../font/LifehackBasic-Regular.eot');
+    src: url('../font/LifehackBasic-Regular.eot?#iefix') format('embedded-opentype'), url('../font/LifehackBasic-Regular.woff') format('woff'), url('../font/LifehackBasic-Regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Lifehack';
+    font-weight: 500;
+    font-style: normal; 
+
+    src: url('../font/Lifehack-Medium.eot');
+    src: url('../font/Lifehack-Medium.eot?#iefix') format('embedded-opentype'), url('../font/Lifehack-Medium.woff') format('woff'), url('../font/Lifehack-Medium.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../font/icomoon.eot?jlgum8');
+    src: url('../font/icomoon.eot?jlgum8#iefix') format('embedded-opentype'), url('../font/icomoon.ttf?jlgum8') format('truetype'), url('../font/icomoon.woff?jlgum8') format('woff'), url('../font/icomoon.svg?jlgum8#icomoon') format('svg');
+}
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    font-family: 'icomoon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before
+{
+    content: '\e9bd';
+}

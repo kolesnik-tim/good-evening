@@ -1,0 +1,230 @@
+.reviews .next1
+{
+    position: absolute;
+    top: 170px; 
+    right: 25px;
+
+    background: url('../img/pointerright.png') no-repeat;
+}
+
+.reviews .prev1
+{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+
+    padding-left: 20px; 
+
+    background: url('../img/pointerleft.png') no-repeat;
+}
+
+.reviews .swiper-container
+{
+    width: 100%;
+    height: 300px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.reviews .swiper-slide
+{
+    background-position: center; 
+    background-size: cover;
+}
+.reviews .swiper-slide img
+{
+    position: absolute;
+    top: 90px;
+    right: -80px;
+
+    border: 4px solid #000;
+    border-radius: 180px; 
+    box-shadow: 0 0 0 3px #fdb827;
+}
+.reviews .swiper-slide p
+{
+    font-family: 'LifehackBasic';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+
+    position: relative; 
+
+    width: 140px;
+    padding: 110px 70px 65px 211px;
+
+    text-transform: uppercase;
+
+    color: #fdb827;
+    background: url('../img/reviews.png') no-repeat;
+}
+.reviews .swiper-slide p span.text
+{
+    font-family: 'LifehackBasic';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+
+    position: absolute;
+    right: 40px;
+    bottom: 55px;
+
+    width: 60px;
+
+    text-transform: uppercase; 
+
+    color: #fdb827;
+}
+
+@media (max-width: 767px)
+{
+    .reviews .swiper-slide p
+    {
+        padding: 110px 70px 65px 0; 
+
+        background: none;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .reviews .swiper-slide img
+    {
+        top: 10px;
+        right: 20px;
+
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.swiper-container
+{
+    width: 300px;
+    height: 340px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+.swiper-container .swiper-slide
+{
+    background-position: center; 
+    background-size: cover;
+}
+.swiper-container .swiper-slide .swiper-button-next
+{
+    top: 98px;
+    right: 0;
+
+    margin: 0;
+}
+.swiper-container .swiper-slide .swiper-button-prev
+{
+    position: relative !important; 
+    top: 0;
+    left: 0;
+}
+
+.carousel-control.left span
+{
+    position: relative;
+}
+.carousel-control.left span:before
+{
+    position: absolute;
+    top: 370px;
+    left: -35px;
+
+    width: 30px;
+    height: 40px; 
+
+    content: '';
+
+    background: url('../img/pointerleft.png') no-repeat;
+}
+
+.carousel-control.right span
+{
+    position: relative;
+}
+.carousel-control.right span:before
+{
+    position: absolute;
+    top: 370px;
+    left: 0;
+
+    width: 30px;
+    height: 40px; 
+
+    content: '';
+
+    background: url('../img/pointerright.png') no-repeat;
+}
+
+@media (max-width: 1024px)
+{
+    .carousel-control.left span:before
+    {
+        top: 130px;
+    }
+    .carousel-control.right span:before
+    {
+        top: 130px;
+    }
+}
+
+.carousel.slide
+{
+    display: inline-block;
+}
+
+.carousel-indicators .active .cause__header_img
+{
+    border: 3px solid #fff;
+}
+
+.item
+{
+    min-height: 450px;
+}
+.item p
+{
+    font-family: 'LifehackBasic';
+    font-size: 30px;
+    font-weight: 400;
+
+    display: inline-block;
+
+    max-width: 680px; 
+    padding-top: 25px;
+
+    color: #fdb827;
+}
+.item img
+{
+    width: 290px;
+    height: auto; 
+
+    border: 3px solid #fdb827;
+    border-radius: 180px;
+}
+
+@media (max-width: 767px)
+{
+    .item img
+    {
+        width: 220px;
+        height: auto;
+    }
+    .carousel-control.left span:before
+    {
+        top: 100px; 
+
+        content: '';
+    }
+    .carousel-control.right span:before
+    {
+        top: 100px; 
+
+        content: '';
+    }
+}

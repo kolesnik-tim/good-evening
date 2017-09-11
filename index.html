@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <title>Добрый вечер</title>
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.modal.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+</html>
+<body>
+  <div class="slideout-menu slideout-menu-left" id="menu">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <li><img src="img/logo.png" alt=""></li>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#system">Как это работает?</a></li>
+          <li><a href="#menu1">Меню на неделю</a></li>
+          <li><a href="#cause">Почему нас выбирают?</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <header class="header" id="fixed">
+    <div class="top-line-anchor"></div>
+    <div class="row center-md">
+      <div class="col-md-12">
+        <div class="sticky-element" id="sticky">
+          <div class="sticky-anchor"></div>
+          <div class="sticky-content">
+            <div class="row start-xs">
+              <div class="col-xs-12">
+                <div class="menu-open"><a id="btn" href="#menu"><span></span></a></div>
+              </div>
+            </div>
+            <nav class="nav"><a href="#home">Главная</a><a href="#system">Как это работает?</a><a href="#menu1">Меню на неделю</a><a href="#cause">Почему нас выбирают?</a><a href="#reviews">Отзывы</a></nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="slideout-panel slideout-panel-left" id="panel">
+    <div class="body" id="home">
+      <div id="panel">
+        <section class="order"><img class="order__fish" src="img/fish0.png" alt=""><img class="order__cole" src="img/cole.png" alt="">
+          <div class="order__blockfruit1"></div>
+          <div class="container">
+            <div class="order__bottom">
+              <div class="container">
+                <div class="row center-xs">
+                  <div class="col-md-5 col-xs-12"><img class="logo flex end-xs" src="img/logo.png" alt=""><br><a href="#menu1"><span class="colortextwhite">Хочу</span> набор</a></div>
+                  <div class="col-md-7 col-xs-12">
+                    <p>Закажите Ужин</p>
+                    <p class="colortextyellow">в нашей группе<img src="img/header__bottom_arrow.png" alt=""></p>
+                    <p>Вконтакте</p><a class="btn" href="https://vk.com/dobriyvecher37">Наша группа <span class="colortextyellow">ВК</span></a>
+                    <div class="order__bottom__tel"><a href="tel:84932503636"><span class="header__white">8 4932</span>   50-36-36</a><a href="tel:89158203636"><span class="header__white">8 915</span>   820-36-36</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order__blockfruit2"><img class="order__blockfruit2__dow" src="img/dow.png" alt=""><img class="order__blockfruit2__pepper" src="img/pepper.png" alt=""></div>
+        </section>
+        <section class="system" id="system">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Как это <span class="colortextwhite">работает</span>?</h3>
+              </div>
+            </div>
+            <div class="row center-xs">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="system__block1 flex middle-xs center-xs"><img src="img/cook.png" alt=""></div>
+                <p><span class="colortextwhite">Шеф повар<br></span> планирует для Вас меню</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="system__block2 flex middle-xs center-xs"><a href="#">набор</a></div>
+                <p>Вы заказываете <span class="colortextwhite">набор продуктов</span></p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="system__block3 flex middle-xs center-xs"><img src="img/people.png" alt=""></div>
+                <p>Мы доставляем <span class="colortextwhite">отборные ингредиенты </span> с рецептами</p>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="system__block4 flex middle-xs center-xs"><img src="img/cloce.png" alt=""></div>
+                <p>Вы готовите вкусный ужин за <span class="colortextwhite">20-30 минут</p>
+              </div>
+            </div>
+          </div>
+          <div class="system__blockfruit3"><img class="system__blockfruit3__fish" src="img/fish.png" alt=""><img class="system__blockfruit3__tomato" src="img/tomato.png" alt=""></div>
+        </section>
+        <section class="clock">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Принимаем <span class="colortextwhite">заявки</span> еще:</h3>
+              </div>
+            </div>
+            <div class="row center-xs">
+              <div class="col-md-3 col-sm-3 col-xs-6">
+                <p class="timer__radius">Дни</p>
+                <div class="clock__timer"><span class="clock_days">0</span></div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-6">
+                <p class="timer__radius">Часы</p>
+                <div class="clock__timer"><span class="clock_hours">0</span></div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-6">
+                <p class="timer__radius">Мин</p>
+                <div class="clock__timer"><span class="clock_minutes">0</span></div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-6">
+                <p class="timer__radius">Сек</p>
+                <div class="clock__timer1"><span class="clock_seconds">0</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="clock__blockfruit4"><img class="clock__blockfruit4__corn" src="img/corn.png" alt=""><img class="clock__blockfruit4__greens" src="img/greens.png" alt=""></div>
+        </section>
+        <section class="menu" id="menu1">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Меню <span class="colortextwhite">на неделю</span></h3>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 start-md">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="menu__block">
+                        <p><span class="number">1.</span> Жареные <span class="colortextwhite">драники</span> с треской и маринованной капустой</p>
+                        <div class="menu__block__img1 swiper-button-next">
+                          <div class="row center-xs">
+                            <div class="col-xs-12"><b>Нажмите,<br> чтобы посмотреть состав</b></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="menu__composition1 swiper-button-prev">
+                        <div class="col-xs-12">
+                          <div class="row">
+                            <div class="col-md-5 col-xs-12 start-xs">
+                              <div class="menu__composition1__portion">
+                                <h4>На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:</h4>
+                                <ul>
+                                  <li>1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span></li>
+                                  <li>3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span></li>
+                                  <li>5. лук репчатый:<span class="colortextyellow"> 70 г;</span></li>
+                                  <li>6. масло подсолнечное: <span class="colortextyellow">15 мл;</span></li>
+                                  <li>7. масло сливочное: <span class="colortextyellow">10 г;</span></li>
+                                  <li>8. петрушка: <span class="colortextyellow">2,5 г;</span></li>
+                                </ul>
+                                <div class="row center-xs">
+                                  <div class="col-xs-4">
+                                    <p>Б/Ж/У</p>
+                                    <p>34/13/77</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>ккал</p>
+                                    <p>584</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>1 порция</p>
+                                    <p>438 гр.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 start-md">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="menu__block">
+                        <p><span class="number">2.</span> <span class="colortextwhite">Соба</span> со свининой Балоньезе</p>
+                        <div class="menu__block__img2 swiper-button-next">
+                          <div class="row center-xs">
+                            <div class="col-xs-12"><b>Нажмите,<br> чтобы посмотреть состав</b></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="menu__composition2 swiper-button-prev">
+                        <div class="col-xs-12">
+                          <div class="row">
+                            <div class="col-md-5 col-xs-12 start-xs">
+                              <div class="menu__composition2__portion">
+                                <h4>На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:</h4>
+                                <ul>
+                                  <li>1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span></li>
+                                  <li>3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span></li>
+                                  <li>5. лук репчатый:<span class="colortextyellow"> 70 г;</span></li>
+                                  <li>6. масло подсолнечное: <span class="colortextyellow">15 мл;</span></li>
+                                  <li>7. масло сливочное: <span class="colortextyellow">10 г;</span></li>
+                                  <li>8. петрушка: <span class="colortextyellow">2,5 г;</span></li>
+                                </ul>
+                                <div class="row center-xs">
+                                  <div class="col-xs-4">
+                                    <p>Б/Ж/У</p>
+                                    <p>34/13/77</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>ккал</p>
+                                    <p>584</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>1 порция</p>
+                                    <p>438 гр.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 start-md">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="menu__block">
+                        <p><span class="number">3.</span> <span class="colortextwhite">Гречетто</span>  с вешенками в сметанном соусе с ростбифом</p>
+                        <div class="menu__block__img3 swiper-button-next">
+                          <div class="row center-xs">
+                            <div class="col-xs-12"><b>Нажмите,<br> чтобы посмотреть состав</b></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="menu__composition3 swiper-button-prev">
+                        <div class="col-xs-12">
+                          <div class="row">
+                            <div class="col-md-5 col-xs-12 start-xs">
+                              <div class="menu__composition3__portion">
+                                <h4>На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:</h4>
+                                <ul>
+                                  <li>1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span></li>
+                                  <li>3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span></li>
+                                  <li>5. лук репчатый:<span class="colortextyellow"> 70 г;</span></li>
+                                  <li>6. масло подсолнечное: <span class="colortextyellow">15 мл;</span></li>
+                                  <li>7. масло сливочное: <span class="colortextyellow">10 г;</span></li>
+                                  <li>8. петрушка: <span class="colortextyellow">2,5 г;</span></li>
+                                </ul>
+                                <div class="row center-xs">
+                                  <div class="col-xs-4">
+                                    <p>Б/Ж/У</p>
+                                    <p>34/13/77</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>ккал</p>
+                                    <p>584</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>1 порция</p>
+                                    <p>438 гр.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 start-md">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="menu__block">
+                        <p><span class="number">4.</span> <span class="colortextwhite">Бефстроганов</span>  в сметане с аранчини и моцареллой</p>
+                        <div class="menu__block__img4 swiper-button-next">
+                          <div class="row center-xs">
+                            <div class="col-xs-12"><b>Нажмите,<br> чтобы посмотреть состав</b></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="menu__composition4 swiper-button-prev">
+                        <div class="col-xs-12">
+                          <div class="row">
+                            <div class="col-md-5 col-xs-12 start-xs">
+                              <div class="menu__composition4__portion">
+                                <h4>На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:</h4>
+                                <ul>
+                                  <li>1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span></li>
+                                  <li>3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span></li>
+                                  <li>5. лук репчатый:<span class="colortextyellow"> 70 г;</span></li>
+                                  <li>6. масло подсолнечное: <span class="colortextyellow">15 мл;</span></li>
+                                  <li>7. масло сливочное: <span class="colortextyellow">10 г;</span></li>
+                                  <li>8. петрушка: <span class="colortextyellow">2,5 г;</span></li>
+                                </ul>
+                                <div class="row center-xs">
+                                  <div class="col-xs-4">
+                                    <p>Б/Ж/У</p>
+                                    <p>34/13/77</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>ккал</p>
+                                    <p>584</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>1 порция</p>
+                                    <p>438 гр.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 start-md">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="menu__block">
+                        <p><span class="number">5.</span> <span class="colortextwhite">Тальятелле</span>  с моцареллой, помидорами и курицей!</p>
+                        <div class="menu__block__img5 swiper-button-next">
+                          <div class="row center-xs">
+                            <div class="col-xs-12"><b>Нажмите,<br> чтобы посмотреть состав</b></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="menu__composition5 swiper-button-prev">
+                        <div class="col-xs-12">
+                          <div class="row">
+                            <div class="col-md-5 col-xs-12 start-xs">
+                              <div class="menu__composition5__portion">
+                                <h4>На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:</h4>
+                                <ul>
+                                  <li>1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span></li>
+                                  <li>3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span></li>
+                                  <li>5. лук репчатый:<span class="colortextyellow"> 70 г;</span></li>
+                                  <li>6. масло подсолнечное: <span class="colortextyellow">15 мл;</span></li>
+                                  <li>7. масло сливочное: <span class="colortextyellow">10 г;</span></li>
+                                  <li>8. петрушка: <span class="colortextyellow">2,5 г;</span></li>
+                                </ul>
+                                <div class="row center-xs">
+                                  <div class="col-xs-4">
+                                    <p>Б/Ж/У</p>
+                                    <p>34/13/77</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>ккал</p>
+                                    <p>584</p>
+                                  </div>
+                                  <div class="col-xs-4">
+                                    <p>1 порция</p>
+                                    <p>438 гр.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="menu__calculator">
+                  <h4><span class="colortextwhite">Укажите</span>:</h4>
+                  <form method="post">
+                    <div class="row">
+                      <div class="col-xs-12 flex start-xs">
+                        <p>Ужины
+                          <select id="dinner" size="1" name="days" form="">
+                            <option value="1000">1,2,3 </option>
+                            <option value="1500">1,2,3,4 </option>
+                            <option value="2000">1,2,3,4,5</option>
+                          </select>
+                        </p>
+                        <p>Кол. <span class="colortextwhite">персон</span>
+                          <select id="people" size="1" name="people" form="">
+                            <option value="500">2 персоны</option>
+                            <option value="4">4 персоны</option>
+                          </select>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="menu__calculator__total">
+                      <div class="row center-xs">
+                        <div class="col-sm-12 center-xs">
+                          <p>Итого <span id="result" class="colortextwhite1">0</span> рублей</p>
+                        </div>
+                        <div class="col-xs-12"><a href="#login-form" rel="modal:open">Оформить заказ</a></div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu__blockfruit5"><img class="menu__blockfruit5__salad" src="img/salad.png" alt=""><img class="menu__blockfruit5__meat" src="img/meat.png" alt=""></div>
+        </section>
+        <section class="view">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>как это <span class="colortextwhite">выглядит</span></h3>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="view__block"><img src="img/set.png" alt="">
+                  <p>Набор</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="view__block"><img src="img/Ingredients.png" alt="">
+                  <p>Ингредиенты</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="view__block"><img src="img/recipe.png" alt="">
+                  <p>Рецепт</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-4 col-xs-12">
+                <div class="view__block"><img src="img/dish.png" alt="">
+                  <p>Блюдо</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="view__blockfruit6"><img class="view__blockfruit6__basket" src="img/basket.png" alt=""><img class="view__blockfruit6__cole" src="img/cole1.png" alt=""></div>
+        </section>
+        <section class="cause" id="cause">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Почему <span class="colortextwhite">нас выбирают</span></h3>
+              </div>
+            </div>
+            <!-- Indicators-->
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+                  <!-- Indicators-->
+                  <div class="cause__header">
+                    <div class="row center-xs">
+                      <div class="col-md-12">
+                        <ol class="carousel-indicators">
+                          <li class="active" data-target="#carousel-example-generic" data-slide-to="0">
+                            <p class="flex center-xs bottom-xs radius">Выгодно</p>
+                            <div class="cause__header_img"><img src="img/avail.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="1">
+                            <p class="flex center-xs bottom-xs radius">Отборные </p>
+                            <p class="radius colortextwhite">прдукты</p>
+                            <div class="cause__header_img"><img src="img/product.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="2">
+                            <p class="flex center-xs bottom-xs radius">Вкусно</p>
+                            <div class="cause__header_img"><img src="img/taste.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="3">
+                            <p class="flex center-xs bottom-xs radius">Без </p>
+                            <p class="radius colortextwhite">очередей</p>
+                            <div class="cause__header_img"><img src="img/queue.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="4">
+                            <p class="flex center-xs bottom-xs radius">Быстро</p>
+                            <div class="cause__header_img"><img src="img/fast.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="5">
+                            <p class="flex center-xs bottom-xs radius">Бесплатная </p>
+                            <p class="radius colortextwhite">доставка</p>
+                            <div class="cause__header_img"><img src="img/delivery.png" alt=""></div>
+                          </li>
+                          <li data-target="#carousel-example-generic" data-slide-to="6">
+                            <p class="flex center-xs bottom-xs radius">Интересно</p>
+                            <div class="cause__header_img"><img src="img/interesting.png" alt=""></div>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Wrapper for slides-->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <div class="item">
+                        <div class="row center-xs">
+                          <div class="col-xs-12"><img src="img/favorably.png" alt="">
+                            <div class="carousel-caption"></div>
+                            <p>Наши наборы собираются в точном соответствии с рецептами. Поэтому <span class="colortextwhite">вы платите только за то, что съедаете,</span> а не то, что выбрасываете</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/delivery1.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Мы работаем с поставщиками, у нас есть возможность отбора продуктов <span class="colortextwhite">лучшего качества</span>!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/delicious.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Наш шеф-повар подбирает для Вас <span class="colortextwhite">рецепты лучших ресторанов мира</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/queue1.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Нет необходимости заезжать в магазины заботясь об ужине, когда набор продуктов <span class="colortextwhite">уже стоит в вашем холодильнике</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/fast1.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Среднее время приготовления наших блюд – <span class="colortextwhite">30 минут</span></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/cause-product.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Каждое воскресенье курьерская служба <span class="colortextwhite">бесплатно доставит заказ</span> до ваших дверей </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="row center-xs">
+                        <div class="col-xs-12"><img src="img/interesting1.png" alt="">
+                          <div class="carousel-caption"></div>
+                          <p>Ощути себя шеф-поваром и <span class="colortextwhite">удиви близких</span> своими шедеврами.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Controls--><a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="sr-only"> </span></a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="sr-only"> </span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cause__blockfruit7"><img class="cause__blockfruit7__fish" src="img/fish1.png" alt=""><img class="cause__blockfruit7__pepper" src="img/pepper.png" alt=""></div>
+        </section>
+        <section class="reviews" id="reviews">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Отзывы <span class="colortextwhite">покупателей</span>:</h3>
+              </div>
+            </div>
+            <div class="swiper-container" id="riviews__container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row center-xs">
+                    <div class="col-xs-6 start-xs">
+                      <p>"Спасибо за прекрасный ужин<span class="colortextwhite"> и хороший вечер"</span><img src="img/riviews-swiper.png" alt=""><span class="text">Елена <span class="colortextwhite">Ясакова</span></span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="row center-xs">
+                    <div class="col-xs-6 start-xs">
+                      <p>"Спасибо за прекрасный ужин<span class="colortextwhite"> и хороший вечер"</span><img src="img/riviews-swiper.png" alt=""><span class="text">Елена <span class="colortextwhite">Ясакова</span></span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next next1"></div>
+              <div class="swiper-button-prev prev1"></div>
+            </div>
+            <div class="reviews__bottom">
+              <div class="row center-xs">
+                <div class="col-md-12">
+                  <p>Больше отзывов <span class="colortextyellow"> смотрите</span> в нашей группе <span class="colortextyellow"> Вконтакте:</span></p><a href="https://vk.com/topic-144095822_35560869">смотреть<img src="img/pointerright.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__blockfruit8"><img class="reviews__blockfruit8__dow" src="img/dow.png" alt=""><img class="reviews__blockfruit8__tomato" src="img/tomato.png" alt=""></div>
+        </section>
+        <section class="guarantee">
+          <div class="container">
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Гарантии</h3>
+              </div>
+            </div>
+            <div class="guarantee__block">
+              <p><span class="colortextyellow">Мы уверены в качестве своей продукции и в своих поварах.</span> При этом мы не стоим на месте и постоянно совершенствуем наш сервис. Если Вас не устроит качество привезенных продуктов или будут замечания по сервису - позвоните по номеру <span class="colortextyellow">8(915) 820-36-36</span> и мы поменяем продукты, качество которых Вас смущает.</p>
+              <p><span class="colortextyellow">Мы так же уверены в своих рецептах - из них получаются очень вкусные блюда.</span> Однако, если Вам удастся приготовить по нашему рецепту невкусную еду - Вы необычный человек. Звоните нам, приезжайте и мы вернём Вам деньги только за удовольствие на Вас посмотреть.</p>
+            </div>
+            <div class="row center-xs">
+              <div class="col-xs-12">
+                <h3>Бесплатно</h3>
+                <p>Получайте <span class="colortextwhite">новые</span> рецепты <span class="colortextwhite">каждую</span> неделю!</p>
+                <form class="guarantee__form flex start-sm center-xs">
+                  <input type="email" name="email" placeholder="Введите e-mail...">
+                  <button>хочу</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="guarantee__blockfruit9"><img class="guarantee__blockfruit9__fish" src="img/fish.png" alt=""><img class="guarantee__blockfruit9__greens1" src="img/greens1.png" alt=""></div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-xs-12 center-xs">
+                <div class="footer__phone">
+                  <p>Наши <span class="colortextwhite">телефоны</span>:</p><a href="tel:84932503636"><span class="footer__white">8 4932</span> 50-36-36</a><a href="tel:89158203636"><span class="footer__white">8 915</span> 820-36-36</a>
+                </div>
+              </div>
+              <div class="col-md-4 col-xs-12 center-xs">
+                <div class="footer__logo"><img src="img/logo.png" alt=""></div>
+              </div>
+              <div class="col-md-4 col-xs-12 center-xs">
+                <div class="footer__social">
+                  <p>Мы в <span class="colortextwhite">соц.сетях</span>:</p><a class="start-xs" href="https://vk.com/dobriyvecher37"><span class="colortextwhite">vk.com/</span>dobriyvecher37</a><a href="https://www.instagram.com/dobriyvecher37/"><span class="colortextwhite">instagram.com/</span>dobriyvecher37</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__blockfruit10"><img class="footer__blockfruit10__salad" src="img/salad.png" alt=""><img class="footer__blockfruit10__meat" src="img/meat.png" alt=""></div>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <div id="login-form" style="display:none;">
+    <div class="row center-xs">
+      <div class="col-xs-12">
+        <form>
+          <h2>Заполните необходимые<span class="colortextwhite"> поля для оформления</span> заказа </h2>
+          <input type="text" name="name" placeholder="ФИО">
+          <input type="text" name="address" placeholder="Адрес доставки">
+          <div class="login-form__select">
+            <select name="time">
+              <option value="10.00-12.00">10.00-12.00</option>
+              <option value="12.00-14.00">12.00-14.00</option>
+              <option value="14.00-16.00">14.00-16.00</option>
+              <option value="16.00-18.00">16.00-18.00</option>
+            </select>
+          </div>
+          <input id="phone" type="tel" name="phone" placeholder="Телефон">
+          <button>Подтвердить заказ</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="policy" style="display:none;"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/slideout.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/maskedinput.js" type="text/javascript"></script>
+  <script src="js/jquery.lettering.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/circletype.min.js"></script>
+  <script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+  <script>new WOW().init();</script>
+</body>
