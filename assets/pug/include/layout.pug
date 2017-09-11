@@ -1,0 +1,103 @@
+doctype
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(content='width=device-width, initial-scale=1.0, user-scalable=no', name='viewport')
+		title Добрый вечер
+		link(rel="stylesheet", href="css/flexboxgrid.min.css")
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
+		link(rel="stylesheet", href="css/fonts.css")
+		link(rel="stylesheet", href="css/animate.min.css")
+		link(rel="stylesheet", href="css/swiper.min.css")
+		link(rel="stylesheet", href="css/bootstrap.css")
+		link(rel="stylesheet" href="css/jquery.modal.min.css" type="text/css" media="screen")
+		link(rel="stylesheet", href="css/styles.css")
+
+body
+	#menu.slideout-menu.slideout-menu-left
+		.row
+			.col-xs-12
+				ul
+					li
+						img(src="img/logo.png", alt="")
+					li
+						a(href="#home") Главная
+					li
+						a(href="#system") Как это работает?
+					li
+						a(href="#menu1") Меню на неделю
+					li
+						a(href="#cause") Почему нас выбирают?
+					li
+						a(href="#reviews") Отзывы
+	header.header#fixed
+		.top-line-anchor
+		.row.center-md
+			.col-md-12
+				#sticky.sticky-element
+					.sticky-anchor
+					.sticky-content
+						.row.start-xs
+							.col-xs-12
+								.menu-open
+									a#btn(href='#menu')
+										span
+						nav.nav
+							a(href="#home") Главная
+							a(href="#system") Как это работает?
+							a(href="#menu1") Меню на неделю
+							a(href="#cause") Почему нас выбирают?
+							a(href="#reviews") Отзывы
+	#panel.slideout-panel.slideout-panel-left
+		.body#home
+			#panel
+				block content
+				footer.footer
+					.container
+						.row
+							.col-md-4.col-xs-12.center-xs
+								.footer__phone
+									p Наши <span class="colortextwhite">телефоны</span>:
+									a(href="tel:84932503636") <span class="footer__white">8 4932</span> 50-36-36
+									a(href="tel:89158203636") <span class="footer__white">8 915</span> 820-36-36
+							.col-md-4.col-xs-12.center-xs
+								.footer__logo
+									img(src="img/logo.png", alt="")
+							.col-md-4.col-xs-12.center-xs
+								.footer__social
+									p Мы в <span class="colortextwhite">соц.сетях</span>:
+									a.start-xs(href="https://vk.com/dobriyvecher37") <span class="colortextwhite">vk.com/</span>dobriyvecher37
+									a(href="https://www.instagram.com/dobriyvecher37/") <span class="colortextwhite">instagram.com/</span>dobriyvecher37
+					.footer__blockfruit10
+						img.footer__blockfruit10__salad(src="img/salad.png", alt="")
+						img.footer__blockfruit10__meat(src="img/meat.png", alt="")
+								
+	#login-form(style="display:none")
+		.row.center-xs
+			.col-xs-12
+				form
+					h2 Заполните необходимые<span class="colortextwhite"> поля для оформления</span> заказа 
+					input(type="text" name="name" placeholder="ФИО")
+					input(type="text" name="address" placeholder="Адрес доставки")
+					.login-form__select
+						select(name="time")
+							option(value="10.00-12.00") 10.00-12.00
+							option(value="12.00-14.00") 12.00-14.00
+							option(value="14.00-16.00") 14.00-16.00
+							option(value="16.00-18.00") 16.00-18.00
+					input#phone(type="tel" name="phone" placeholder="Телефон")
+					button Подтвердить заказ
+	#policy(style="display:none")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+	script(src="js/swiper.min.js")
+	script(src="js/slideout.js")
+	script(src="js/main.js")
+	script(src="js/wow.min.js")
+	script(src="js/maskedinput.js" type="text/javascript")
+	script(src="js/jquery.lettering.js")
+	script(src="js/bootstrap.min.js")
+	script(src="js/circletype.min.js")
+	script(src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8")
+	script.
+		new WOW().init();
+	block script

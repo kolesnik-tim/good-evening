@@ -1,0 +1,188 @@
+@import "color.sass" 
+
+.footer
+	&__logo
+		img 
+			width: 220px
+			height: 230px
+			margin-top: -25px
+			position: relative
+			z-index: 3
+	&__phone
+		padding-left: 20px
+		display: inline-block
+		p
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 26px
+			font-weight: 400
+			line-height: 28px
+			padding-top: 40px
+			padding-bottom: 25px
+		a
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-weight: 400
+			line-height: 20px
+			font-size: 25px
+			text-transform: uppercase
+			display: block
+			padding-left: 60px
+			padding-bottom: 10px
+			position: relative
+			&:after
+				content: ""
+				position: absolute
+				left: 20px
+				bottom: 6px
+				width: 63px
+				height: 30px
+				background: url("../img/phone.png") no-repeat
+			&:last-child
+				position: relative
+				&:after
+					content: ""
+					position: absolute
+					left: -8px
+					bottom: 6px
+					width: 63px
+					height: 30px
+					background: url("../img/viber.png") no-repeat
+			&:hover
+				color: #1c9f92
+	&__social
+		display: inline-block
+		p		 
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 26px
+			font-weight: 400
+			line-height: 28px
+			padding-top: 40px
+			padding-bottom: 25px
+		a
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-weight: 400
+			line-height: 20px
+			font-size: 18px
+			display: block
+			padding-left: 40px
+			&:hover
+				color: #1c9f92
+			&:last-child
+				position: relative
+				padding-top: 10px
+				&::after
+					content: ""
+					position: absolute
+					left: 0px
+					bottom: -11px
+					width: 30px
+					height: 63px
+					background: url("../img/vk.png") no-repeat
+	@media ('max-width: 767px')
+		.footer
+			&__phone
+				margin-bottom: 40px
+			&__social
+				padding-left: 20px
+				margin-bottom: 50px
+	&__blockfruit10
+		background: url("../img/view__blockfruit6.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: -20px
+		margin-bottom: 20px
+		&__salad
+			position: absolute
+			left: 0
+			bottom: -15px
+		&__meat
+			position: absolute
+			right: 0
+			bottom: -17px
+	@media ('max-width: 1024px')
+		.footer
+			&__blockfruit10__salad
+				display: none
+			&__blockfruit10__meat
+				display: none
+			&__phone
+				padding-bottom: 30px
+			&__social
+				padding-bottom: 40px
+.jquery-modal
+	z-index: 999
+#login-form
+	max-width: 700px
+	padding: 60px 120px
+	background: #000
+	border: 3px solid #fdb827
+	border-radius: 15px
+	h2
+		font-weight: 300
+		margin-bottom: 60px
+		color: #fdb827
+	input
+		width: 100%
+		padding: 10px 0px
+		margin-bottom: 25px
+		box-sizing: border-box
+		text-align: center
+		color: #fff
+		font-family: 'LifehackBasic'
+		font-size: 20px
+		font-weight: 400
+		text-transform: uppercase
+		background: #000
+		border: 3px solid #fdb827
+		border-radius: 20px
+		outline: none
+	.login-form__select
+		width: 99%
+		text-align: center
+		background: #000
+		border: 3px solid #fdb827
+		border-radius: 20px
+		outline: none
+		padding: 7px 0
+		display: black
+		margin-bottom: 20px
+		select
+			color: #fff
+			font-family: 'LifehackBasic'
+			font-size: 20px
+			font-weight: 400
+			text-transform: uppercase
+			background: #000
+			outline: none
+			border: none
+	button
+		margin-top: 15px
+		width: 100%
+		border: none
+		background: #fdb827
+		padding: 10px 45px
+		color: black
+		font-family: 'LifehackBasic'
+		font-size: 20px
+		font-weight: 400
+		text-transform: uppercase
+		cursor: pointer
+		transition: all 0.3s
+		border-radius: 20px
+		border: 3px solid #fdb827
+		outline: none
+	button:hover
+		background: #000
+		color: #ffba00
+		border: 3px solid #fdb827
+@media ('max-width: 767px')
+	#login-form
+		padding: 30px 10px
+		button
+			font-size: 24px
+

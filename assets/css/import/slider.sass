@@ -1,0 +1,151 @@
+@import "color.sass" 
+
+
+
+.reviews
+	.next1
+		background: url("../img/pointerright.png") no-repeat
+		position: absolute
+		right: 25px
+		top: 170px
+	.prev1
+		background: url("../img/pointerleft.png") no-repeat
+		position: absolute
+		left: 10px
+		top: 170px
+		padding-left: 20px
+	.swiper-container
+		width: 100%
+		height: 300px
+		margin-left: auto
+		margin-right: auto
+	.swiper-slide
+		background-size: cover
+		background-position: center
+		img
+			position: absolute
+			right: -80px
+			top: 90px
+			box-shadow: 0 0 0 3px #fdb827
+			border: 4px solid #000
+			border-radius: 180px
+		p
+			width: 140px
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 17px
+			font-weight: 400
+			line-height: 20px
+			text-transform: uppercase
+			background: url("../img/reviews.png") no-repeat
+			padding: 110px 70px 65px 211px
+			position: relative
+			span.text
+				position: absolute
+				right: 40px
+				bottom: 55px
+				width: 60px
+				color: #fdb827
+				font-family: 'LifehackBasic'
+				font-size: 11px
+				font-weight: 400
+				line-height: 10px
+				text-transform: uppercase
+@media ('max-width: 767px')
+	.reviews
+		.swiper-slide
+			p
+				background: none
+				padding: 110px 70px 65px 0px 
+@media ('max-width: 500px')
+	.reviews
+		.swiper-slide
+			img
+				right: 20px
+				top: 10px
+				width: 100px
+				height: 100px
+
+
+
+.swiper-container
+	height: 340px
+	width: 300px
+	margin-left: auto
+	margin-right: auto
+	.swiper-slide
+		background-size: cover
+		background-position: center
+		.swiper-button-next
+			right: 0
+			top: 98px
+			margin: 0
+		.swiper-button-prev
+			top: 0
+			left: 0
+			position: relative !important
+.carousel-control.left span
+	position: relative
+	&:before
+		content: ""
+		background: url("../img/pointerleft.png") no-repeat
+		position: absolute
+		top: 370px
+		left: -35px
+		width: 30px
+		height: 40px
+.carousel-control.right span
+	position: relative
+	&:before
+		content: ""
+		background: url("../img/pointerright.png") no-repeat
+		position: absolute
+		top: 370px
+		left: 0
+		width: 30px
+		height: 40px
+@media ('max-width: 1024px')
+	.carousel-control.left span:before
+		top: 130px
+	.carousel-control.right span:before
+		top: 130px
+.carousel.slide
+	display: inline-block
+.carousel-indicators
+	.active
+		.cause__header_img
+			border: 3px solid #fff
+
+.item
+	min-height: 450px
+	p
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		padding-top: 25px
+		display: inline-block
+		max-width: 680px
+	img
+		border: 3px solid #fdb827
+		border-radius: 180px
+		width: 290px
+		height: auto
+@media ('max-width: 767px')
+	.item
+		img
+			width: 220px
+			height: auto
+	.carousel-control.left span
+		&:before
+			content: ""
+			top: 100px
+	.carousel-control.right span
+		&:before
+			content: ""
+			top: 100px
+
+
+
+
+

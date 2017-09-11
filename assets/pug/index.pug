@@ -1,0 +1,461 @@
+extends include/layout.pug
+
+block content
+	section.order
+		img.order__fish(src="img/fish0.png", alt="")
+		img.order__cole(src="img/cole.png", alt="")
+		.order__blockfruit1
+		.container
+			.order__bottom
+				.container
+					.row.center-xs
+						.col-md-5.col-xs-12
+							img.logo.flex.end-xs(src="img/logo.png", alt="")
+							<br>
+							a(href="#menu1") <span class="colortextwhite">Хочу</span> набор
+						.col-md-7.col-xs-12
+							p Закажите Ужин
+							p.colortextyellow в нашей группе
+								img(src="img/header__bottom_arrow.png", alt="")
+							p Вконтакте
+							a.btn(href="https://vk.com/dobriyvecher37") Наша группа <span class="colortextyellow">ВК</span>
+							.order__bottom__tel
+								a(href="tel:84932503636") <span class="header__white">8 4932</span>   50-36-36
+								a(href="tel:89158203636") <span class="header__white">8 915</span>   820-36-36
+		.order__blockfruit2
+			img.order__blockfruit2__dow(src="img/dow.png", alt="")
+			img.order__blockfruit2__pepper(src="img/pepper.png", alt="")
+	section.system#system
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Как это <span class="colortextwhite">работает</span>?
+			.row.center-xs
+				.col-md-3.col-sm-6.col-xs-12
+					.system__block1.flex.middle-xs.center-xs
+						img(src="img/cook.png", alt="")
+					p <span class="colortextwhite">Шеф повар<br></span> планирует для Вас меню
+				.col-md-3.col-sm-6.col-xs-12
+					.system__block2.flex.middle-xs.center-xs
+						a(href="#") набор
+					p Вы заказываете <span class="colortextwhite">набор продуктов</span>
+				.col-md-3.col-sm-6.col-xs-12
+					.system__block3.flex.middle-xs.center-xs
+						img(src="img/people.png", alt="")
+					p Мы доставляем <span class="colortextwhite">отборные ингредиенты </span> с рецептами
+				.col-md-3.col-sm-6.col-xs-12
+					.system__block4.flex.middle-xs.center-xs
+						img(src="img/cloce.png", alt="")
+					p Вы готовите вкусный ужин за <span class="colortextwhite">20-30 минут
+		.system__blockfruit3
+			img.system__blockfruit3__fish(src="img/fish.png", alt="")
+			img.system__blockfruit3__tomato(src="img/tomato.png", alt="")
+	section.clock
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Принимаем <span class="colortextwhite">заявки</span> еще:
+			.row.center-xs
+				.col-md-3.col-sm-3.col-xs-6
+					p.timer__radius Дни
+					.clock__timer
+						span.clock_days 0
+				.col-md-3.col-sm-3.col-xs-6
+					p.timer__radius Часы
+					.clock__timer
+						span.clock_hours 0
+				.col-md-3.col-sm-3.col-xs-6
+					p.timer__radius Мин
+					.clock__timer
+						span.clock_minutes 0
+				.col-md-3.col-sm-3.col-xs-6
+					p.timer__radius Сек
+					.clock__timer1
+						span.clock_seconds 0
+		.clock__blockfruit4
+			img.clock__blockfruit4__corn(src="img/corn.png", alt="")
+			img.clock__blockfruit4__greens(src="img/greens.png", alt="")
+	section.menu#menu1
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Меню <span class="colortextwhite">на неделю</span>
+				.col-md-4.col-sm-6.col-xs-12.start-md
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								.menu__block
+									p <span class="number">1.</span> Жареные <span class="colortextwhite">драники</span> с треской и маринованной капустой
+									.menu__block__img1.swiper-button-next
+										.row.center-xs
+											.col-xs-12
+												b Нажмите,<br> чтобы посмотреть состав
+							.swiper-slide
+								.menu__composition1.swiper-button-prev
+									.col-xs-12
+										.row
+											.col-md-5.col-xs-12.start-xs
+												.menu__composition1__portion
+													h4 На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:
+													ul
+														li 1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span>
+														li 3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span>
+														li 5. лук репчатый:<span class="colortextyellow"> 70 г;</span>
+														li 6. масло подсолнечное: <span class="colortextyellow">15 мл;</span>
+														li 7. масло сливочное: <span class="colortextyellow">10 г;</span>
+														li 8. петрушка: <span class="colortextyellow">2,5 г;</span>
+													.row.center-xs
+														.col-xs-4
+															p Б/Ж/У
+															p 34/13/77
+														.col-xs-4
+															p ккал
+															p 584
+														.col-xs-4
+															p 1 порция
+															p 438 гр.
+				.col-md-4.col-sm-6.col-xs-12.start-md
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								.menu__block
+									p <span class="number">2.</span> <span class="colortextwhite">Соба</span> со свининой Балоньезе
+									.menu__block__img2.swiper-button-next
+										.row.center-xs
+											.col-xs-12
+												b Нажмите,<br> чтобы посмотреть состав
+							.swiper-slide
+								.menu__composition2.swiper-button-prev
+									.col-xs-12
+										.row
+											.col-md-5.col-xs-12.start-xs
+												.menu__composition2__portion
+													h4 На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:
+													ul
+														li 1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span>
+														li 3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span>
+														li 5. лук репчатый:<span class="colortextyellow"> 70 г;</span>
+														li 6. масло подсолнечное: <span class="colortextyellow">15 мл;</span>
+														li 7. масло сливочное: <span class="colortextyellow">10 г;</span>
+														li 8. петрушка: <span class="colortextyellow">2,5 г;</span>
+													.row.center-xs
+														.col-xs-4
+															p Б/Ж/У
+															p 34/13/77
+														.col-xs-4
+															p ккал
+															p 584
+														.col-xs-4
+															p 1 порция
+															p 438 гр.
+				.col-md-4.col-sm-6.col-xs-12.start-md
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								.menu__block
+									p <span class="number">3.</span> <span class="colortextwhite">Гречетто</span>  с вешенками в сметанном соусе с ростбифом
+									.menu__block__img3.swiper-button-next
+										.row.center-xs
+											.col-xs-12
+												b Нажмите,<br> чтобы посмотреть состав
+							.swiper-slide
+								.menu__composition3.swiper-button-prev
+									.col-xs-12
+										.row
+											.col-md-5.col-xs-12.start-xs
+												.menu__composition3__portion
+													h4 На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:
+													ul
+														li 1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span>
+														li 3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span>
+														li 5. лук репчатый:<span class="colortextyellow"> 70 г;</span>
+														li 6. масло подсолнечное: <span class="colortextyellow">15 мл;</span>
+														li 7. масло сливочное: <span class="colortextyellow">10 г;</span>
+														li 8. петрушка: <span class="colortextyellow">2,5 г;</span>
+													.row.center-xs
+														.col-xs-4
+															p Б/Ж/У
+															p 34/13/77
+														.col-xs-4
+															p ккал
+															p 584
+														.col-xs-4
+															p 1 порция
+															p 438 гр.
+				.col-md-4.col-sm-6.col-xs-12.start-md
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								.menu__block
+									p <span class="number">4.</span> <span class="colortextwhite">Бефстроганов</span>  в сметане с аранчини и моцареллой
+									.menu__block__img4.swiper-button-next
+										.row.center-xs
+											.col-xs-12
+												b Нажмите,<br> чтобы посмотреть состав
+							.swiper-slide
+								.menu__composition4.swiper-button-prev
+									.col-xs-12
+										.row
+											.col-md-5.col-xs-12.start-xs
+												.menu__composition4__portion
+													h4 На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:
+													ul
+														li 1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span>
+														li 3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span>
+														li 5. лук репчатый:<span class="colortextyellow"> 70 г;</span>
+														li 6. масло подсолнечное: <span class="colortextyellow">15 мл;</span>
+														li 7. масло сливочное: <span class="colortextyellow">10 г;</span>
+														li 8. петрушка: <span class="colortextyellow">2,5 г;</span>
+													.row.center-xs
+														.col-xs-4
+															p Б/Ж/У
+															p 34/13/77
+														.col-xs-4
+															p ккал
+															p 584
+														.col-xs-4
+															p 1 порция
+															p 438 гр.
+				.col-md-4.col-sm-6.col-xs-12.start-md
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								.menu__block
+									p <span class="number">5.</span> <span class="colortextwhite">Тальятелле</span>  с моцареллой, помидорами и курицей!
+									.menu__block__img5.swiper-button-next
+										.row.center-xs
+											.col-xs-12
+												b Нажмите,<br> чтобы посмотреть состав
+							.swiper-slide
+								.menu__composition5.swiper-button-prev
+									.col-xs-12
+										.row
+											.col-md-5.col-xs-12.start-xs
+												.menu__composition5__portion
+													h4 На 1 порцию <span class="colortextwhite">мы Вам привезём</span>:
+													ul
+														li 1. картофель: <span class="colortextyellow">250 г;</span>  2. огурец:<span class="colortextyellow"> 100 г;</span>
+														li 3. помидор: <span class="colortextyellow">75 г;</span>  4. бекон: <span class="colortextyellow">70 г;</span>
+														li 5. лук репчатый:<span class="colortextyellow"> 70 г;</span>
+														li 6. масло подсолнечное: <span class="colortextyellow">15 мл;</span>
+														li 7. масло сливочное: <span class="colortextyellow">10 г;</span>
+														li 8. петрушка: <span class="colortextyellow">2,5 г;</span>
+													.row.center-xs
+														.col-xs-4
+															p Б/Ж/У
+															p 34/13/77
+														.col-xs-4
+															p ккал
+															p 584
+														.col-xs-4
+															p 1 порция
+															p 438 гр.
+				.col-md-4.col-sm-6.col-xs-12
+					.menu__calculator
+						h4 <span class="colortextwhite">Укажите</span>:
+						form(method="post")
+							.row
+								.col-xs-12.flex.start-xs
+									p Ужины
+										select#dinner(size='1', name='days', form='')
+											option(value='1000') 1,2,3 
+											option(value='1500') 1,2,3,4 
+											option(value='2000') 1,2,3,4,5
+									p Кол. <span class="colortextwhite">персон</span>
+										select#people(size='1', name='people', form='')
+											option(value='500') 2 персоны
+											option(value='4') 4 персоны
+							.menu__calculator__total
+								.row.center-xs
+									.col-sm-12.center-xs
+										p Итого <span id="result" class="colortextwhite1">0</span> рублей
+									.col-xs-12
+										a(href="#login-form" rel="modal:open") Оформить заказ
+		.menu__blockfruit5
+			img.menu__blockfruit5__salad(src="img/salad.png", alt="")
+			img.menu__blockfruit5__meat(src="img/meat.png", alt="")
+	section.view
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 как это <span class="colortextwhite">выглядит</span>
+				.col-md-3.col-sm-4.col-xs-12
+					.view__block
+						img(src="img/set.png", alt="")
+						p Набор
+				.col-md-3.col-sm-4.col-xs-12
+					.view__block
+						img(src="img/Ingredients.png", alt="")
+						p Ингредиенты
+				.col-md-3.col-sm-4.col-xs-12
+					.view__block
+						img(src="img/recipe.png", alt="")
+						p Рецепт
+				.col-md-3.col-sm-4.col-xs-12
+					.view__block
+						img(src="img/dish.png", alt="")
+						p Блюдо
+		.view__blockfruit6
+			img.view__blockfruit6__basket(src="img/basket.png", alt="")
+			img.view__blockfruit6__cole(src="img/cole1.png", alt="")
+	section.cause#cause
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Почему <span class="colortextwhite">нас выбирают</span>
+			// Indicators
+			
+			.row.center-xs
+				.col-xs-12
+					#carousel-example-generic.carousel.slide(data-ride='carousel')
+
+						// Indicators
+						.cause__header
+							.row.center-xs
+								.col-md-12
+									ol.carousel-indicators
+										li.active(data-target='#carousel-example-generic', data-slide-to='0')
+											p.flex.center-xs.bottom-xs.radius Выгодно
+											.cause__header_img
+												img(src="img/avail.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='1')
+											p.flex.center-xs.bottom-xs.radius Отборные 
+											p.radius.colortextwhite прдукты
+											.cause__header_img
+												img(src="img/product.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='2')
+											p.flex.center-xs.bottom-xs.radius Вкусно
+											.cause__header_img
+												img(src="img/taste.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='3')
+											p.flex.center-xs.bottom-xs.radius Без 
+											p.radius.colortextwhite очередей
+											.cause__header_img
+												img(src="img/queue.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='4')
+											p.flex.center-xs.bottom-xs.radius Быстро
+											.cause__header_img
+												img(src="img/fast.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='5')
+											p.flex.center-xs.bottom-xs.radius Бесплатная 
+											p.radius.colortextwhite доставка
+											.cause__header_img
+												img(src="img/delivery.png", alt="")
+										li(data-target='#carousel-example-generic', data-slide-to='6')
+											p.flex.center-xs.bottom-xs.radius Интересно
+											.cause__header_img
+												img(src="img/interesting.png", alt="")
+						// Wrapper for slides
+						.carousel-inner(role='listbox')
+							.item.active
+								.item
+									.row.center-xs
+										.col-xs-12
+											img(src="img/favorably.png", alt="")
+											.carousel-caption
+											p Наши наборы собираются в точном соответствии с рецептами. Поэтому <span class="colortextwhite">вы платите только за то, что съедаете,</span> а не то, что выбрасываете
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/delivery1.png", alt="")
+										.carousel-caption
+										p Мы работаем с поставщиками, у нас есть возможность отбора продуктов <span class="colortextwhite">лучшего качества</span>!
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/delicious.png", alt="")
+										.carousel-caption
+
+										p Наш шеф-повар подбирает для Вас <span class="colortextwhite">рецепты лучших ресторанов мира</span>
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/queue1.png", alt="")
+										.carousel-caption
+
+										p Нет необходимости заезжать в магазины заботясь об ужине, когда набор продуктов <span class="colortextwhite">уже стоит в вашем холодильнике</span>
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/fast1.png", alt="")
+										.carousel-caption
+										p Среднее время приготовления наших блюд – <span class="colortextwhite">30 минут</span>
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/cause-product.png", alt="")
+										.carousel-caption
+										p Каждое воскресенье курьерская служба <span class="colortextwhite">бесплатно доставит заказ</span> до ваших дверей 
+							.item
+								.row.center-xs
+									.col-xs-12
+										img(src="img/interesting1.png", alt="")
+										.carousel-caption
+										p Ощути себя шеф-поваром и <span class="colortextwhite">удиви близких</span> своими шедеврами.
+						// Controls
+						a.left.carousel-control(href='#carousel-example-generic', role='button', data-slide='prev')
+							span.sr-only 
+						a.right.carousel-control(href='#carousel-example-generic', role='button', data-slide='next')
+							span.sr-only 
+		.cause__blockfruit7
+			img.cause__blockfruit7__fish(src="img/fish1.png", alt="")
+			img.cause__blockfruit7__pepper(src="img/pepper.png", alt="")
+	section.reviews#reviews
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Отзывы <span class="colortextwhite">покупателей</span>:
+						//- // Swiper
+			.swiper-container#riviews__container
+				.swiper-wrapper
+					.swiper-slide
+						.row.center-xs
+							.col-xs-6.start-xs
+								p "Спасибо за прекрасный ужин<span class="colortextwhite"> и хороший вечер"</span>
+									img(src="img/riviews-swiper.png", alt="")
+									span.text Елена <span class="colortextwhite">Ясакова</span>
+					.swiper-slide
+						.row.center-xs
+							.col-xs-6.start-xs
+								p "Спасибо за прекрасный ужин<span class="colortextwhite"> и хороший вечер"</span>
+									img(src="img/riviews-swiper.png", alt="")
+									span.text Елена <span class="colortextwhite">Ясакова</span>
+				//- // Add Arrows
+				.swiper-button-next.next1
+				.swiper-button-prev.prev1
+
+
+			.reviews__bottom
+				.row.center-xs
+					.col-md-12
+						p Больше отзывов <span class="colortextyellow"> смотрите</span> в нашей группе <span class="colortextyellow"> Вконтакте:</span>
+						a(href="https://vk.com/topic-144095822_35560869") смотреть
+							img(src="img/pointerright.png", alt="")
+		.reviews__blockfruit8
+			img.reviews__blockfruit8__dow(src="img/dow.png", alt="")
+			img.reviews__blockfruit8__tomato(src="img/tomato.png", alt="")
+	section.guarantee
+		.container
+			.row.center-xs
+				.col-xs-12
+					h3 Гарантии
+			.guarantee__block
+				p <span class="colortextyellow">Мы уверены в качестве своей продукции и в своих поварах.</span> При этом мы не стоим на месте и постоянно совершенствуем наш сервис. Если Вас не устроит качество привезенных продуктов или будут замечания по сервису - позвоните по номеру <span class="colortextyellow">8(915) 820-36-36</span> и мы поменяем продукты, качество которых Вас смущает.
+				p <span class="colortextyellow">Мы так же уверены в своих рецептах - из них получаются очень вкусные блюда.</span> Однако, если Вам удастся приготовить по нашему рецепту невкусную еду - Вы необычный человек. Звоните нам, приезжайте и мы вернём Вам деньги только за удовольствие на Вас посмотреть.
+			.row.center-xs
+				.col-xs-12
+					h3 Бесплатно
+					p Получайте <span class="colortextwhite">новые</span> рецепты <span class="colortextwhite">каждую</span> неделю!
+					form.guarantee__form.flex.start-sm.center-xs
+						input(type="email" name="email" placeholder="Введите e-mail...")
+						button хочу
+		.guarantee__blockfruit9
+			img.guarantee__blockfruit9__fish(src="img/fish.png", alt="")
+			img.guarantee__blockfruit9__greens1(src="img/greens1.png", alt="")
+
+
+
+
+
+
+

@@ -1,0 +1,846 @@
+@import "color.sass" 
+
+
+.order
+	position: relative
+	&__fish
+		position: absolute
+		left: 0
+		top: -65px
+	&__cole
+		position: absolute
+		right: 0 
+		top: -65px
+	@media ('max-width: 1024px')
+		.order
+			&__fish
+				display: none
+			&__cole
+				display: none
+	&__blockfruit1
+		height: 63px
+		background: url("../img/system__blockfruit3.png")
+		border-bottom: 4px solid #fdb827
+	&__blockfruit2
+		position: relative
+		height: 65px
+		background: url("../img/header__blockfruit2.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		margin-top: 50px
+		&__dow
+			position: absolute
+			left: 0
+			bottom: -10px
+		&__pepper
+			position: absolute
+			right: 0 
+			bottom: -10px
+	@media ('max-width: 1024px')
+		.order
+			&__blockfruit2__dow
+				display: none
+			&__blockfruit2__pepper
+				display: none
+
+	&__bottom
+		.logo
+			padding-top: 25px
+			margin-bottom: 30px
+			width: 300px
+			height: 300px
+			display: inline
+		.col-md-5 a
+			padding: 35px 80px
+			margin-bottom: 20px
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 22px
+			font-weight: 400
+			line-height: 35px
+			text-transform: uppercase
+			background: url("../img/header__bottom_button.png") no-repeat
+			display: inline
+			background-size: 100% 100%
+			&:hover
+				color: #1c9f92
+		p
+			font-family: "LifehackBasic"
+			font-size: 30px
+			font-weight: 400
+			line-height: 45px
+			text-transform: uppercase
+			transform: rotate(5deg)
+			padding-left: 140px
+			position: relative
+			img
+				position: absolute
+				left: 70px
+				top: 15px
+			&:first-child
+				padding: 0
+				margin-bottom: -15px
+				margin-left: -110px
+				transform: rotate(-6deg)
+				transform-origin: 0px 0px
+		.col-md-7
+			padding-top: 90px
+			padding-left: 20px
+			a
+				color: #fff
+				font-family: 'LifehackBasic'
+				font-size: 25px
+				font-weight: 400
+				line-height: 45px
+				margin-left: 100px
+				background-size: 100% 100%
+				transform: rotate(5deg)
+				display: inline-block
+				&:hover
+					color: #1c9f92
+			.btn
+				border-radius: 80px
+				margin: 20px 0
+				padding: 5px 45px
+				background: #000
+				border: 3px solid #fdb827
+				position: relative
+				&:hover
+					border: 3px solid #1c9f92
+				&:before
+					content: ""
+					right: -15px
+					top: 35px
+					position: absolute
+					width: 40px
+					height: 40px
+					background: url("../img/pointerright.png") no-repeat
+		&__tel
+			padding-top: 15px
+			a
+				color: #fdb827 !important
+				background: none !important
+				font-size: 30px !important
+				&:hover
+					color: #1c9f92 !important
+				&:first-child
+					position: relative
+					&:after
+						content: ""
+						position: absolute
+						left: -30px
+						bottom: 3px
+						width: 63px
+						height: 30px
+						background: url("../img/phone.png") no-repeat
+				&:last-child
+					position: relative
+					&:after
+						content: ""
+						position: absolute
+						left: -60px
+						bottom: 3px
+						width: 63px
+						height: 30px
+						background: url("../img/viber.png") no-repeat
+@media ('max-width: 1024px')
+	.order
+		&__bottom
+			p img
+				left: 20%
+@media ('max-width: 600px')
+	.order__bottom
+		.col-md-7 
+			a
+				margin-left: 20px
+			img
+				display: none
+		&__tel a
+			margin-left: -40px
+			padding: 10px
+			&:first-child
+				position: relative
+				&:after
+					content: ""
+					left: -30px
+					bottom: 13px
+			&:last-child
+				position: relative
+				&:after
+					content: ""
+					left: -50px
+					bottom: 13px
+		p
+			padding: 10px 0
+		p:first-child
+			margin: 0
+.system
+	h3
+		color: c
+		font-family: "LifehackBasic"
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 20px
+	p
+		color: #fdb827
+		font-family: LifehackBasic
+		font-size: 22px
+		font-weight: 400
+		padding-bottom: 30px
+	&__block1
+		min-height: 170px
+		position: relative
+		&:before
+			content: ""
+			position: absolute
+			right: -30px
+			top: 90px
+			width: 85px
+			height: 2px
+			border-top: 2px dotted #fff
+	&__block2
+		min-height: 170px
+		position: relative
+		&:before
+			content: ""
+			position: absolute
+			right: -75px
+			top: 90px
+			width: 85px
+			height: 2px
+			border-top: 2px dotted #fff
+		a
+			color: white
+			font-family: 'LifehackBasic'
+			font-size: 16px
+			font-weight: 400
+			background: url("../img/laptop.png") no-repeat
+			padding: 32px 70px 40px 70px
+			&:hover
+				color: #1c9f92
+	@media ('max-width: 1024px')
+		.system__block2:before
+			display: none
+
+	&__block3
+		min-height: 170px
+		position: relative
+		&:before
+			content: ""
+			position: absolute
+			right: -55px
+			top: 90px
+			width: 85px
+			height: 2px
+			border-top: 2px dotted #fff
+	&__block4
+		min-height: 170px
+		position: relative
+	&__blockfruit3
+		background: url("../img/system__blockfruit3.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		&__fish
+			position: absolute
+			left: 0
+			bottom: -10px
+		&__tomato
+			position: absolute
+			right: 0
+			bottom: -10px
+	@media ('max-width: 1024px')
+		.system
+			&__blockfruit3__fish
+				display: none
+			&__blockfruit3__tomato
+				display: none
+@media ('max-width: 767px')
+	.system__block1:before
+		display: none
+	.system__block3:before
+		display: none
+.clock
+	h3
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 30px
+	&__blockfruit4
+		background: url("../img/clock__blockfruit4.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		&__corn
+			position: absolute
+			left: 0
+			bottom: -25px
+		&__greens
+			position: absolute
+			right: 0
+			bottom: -40px
+	@media ('max-width: 1024px')
+		.clock
+			&__blockfruit4__corn
+				display: none
+			&__blockfruit4__greens
+				display: none
+	p
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 16px
+		font-weight: 400
+		text-transform: uppercase
+		position: relative
+		margin-bottom: -25px
+		transform: rotate(-35deg)
+		margin-left: -80px
+	&__timer
+		background: #000
+		display: inline-block
+		border-radius: 180px
+		padding: 15px
+		border: 4px solid #fdb827
+		position: relative
+		margin-bottom: 50px
+		&:before
+			content: ""
+			position: absolute
+			top: 50px
+			right: -90px
+			width: 60px
+			height: 2px
+			border-bottom: 2px dotted #fff
+		span
+			border: 2px dotted #fff
+			border-radius: 180px
+			display: inline-block
+			padding: 25px 0
+			width: 80px
+			color: white
+			font-family: 'LifehackBasic'
+			font-size: 34px
+			font-weight: 400
+	@media ('max-width: 1024px')
+		.clock__timer:before
+			content: ""
+			right: -73px
+	@media ('max-width: 767px')
+		.clock__timer:before
+			content: ""
+			display: none
+	&__timer1
+		background: #000
+		display: inline-block
+		border-radius: 180px
+		padding: 15px
+		border: 4px solid #fdb827
+		position: relative
+		span
+			border: 2px dotted #fff
+			border-radius: 180px
+			display: inline-block
+			padding: 25px 0
+			width: 80px
+			color: white
+			font-family: 'LifehackBasic'
+			font-size: 34px
+			font-weight: 400
+.menu
+	.container
+		position: relative
+	h3
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 40px
+	&__block
+		width: 300px
+		margin-bottom: 10px
+		display: inline-block
+		position: relative
+
+		p
+			min-height: 50px
+			padding: 23px
+			font-family: 'LifehackBasic'
+			font-size: 20px
+			font-weight: normal
+			font-style: normal
+			font-stretch: normal
+			line-height: normal
+			letter-spacing: normal
+			color: #fdb827
+			border: 3px solid #fdb827
+			border-radius: 30px 30px 0 0
+			background: #000
+			margin-bottom: -3px
+			display: inline-block
+			width: 248px
+			list-style: none
+		b
+			display: none
+			background: rgba(0,0,0,0.8)
+			cursor: pointer
+			width: 156px
+			border-radius: 0 0 32px 32px
+			padding: 69px
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 20px
+			font-weight: 400
+		&__img1
+			border: 3px solid #fdb827
+			border-radius: 0 0 35px 35px
+			width: 294px
+			height: 228px
+			background: url("../img/monday.jpg")
+			background-size: cover
+			&:hover b
+				display: block
+		&__img2
+			background: url("../img/tuesday.jpg")
+			border: 3px solid #fdb827
+			border-radius: 0 0 35px 35px
+			width: 294px
+			height: 228px
+			background-size: cover
+			&:hover b
+				display: block
+		&__img3
+			background: url("../img/wednesday.jpg")
+			border: 3px solid #fdb827
+			border-radius: 0 0 35px 35px
+			width: 294px
+			height: 228px
+			background-size: cover
+			&:hover b
+				display: block
+		&__img4
+			background: url("../img/thursday.jpg")
+			border: 3px solid #fdb827
+			border-radius: 0 0 35px 35px
+			width: 294px
+			height: 228px
+			background-size: cover
+			&:hover b
+				display: block
+		&__img5
+			background: url("../img/friday.jpg")
+			border: 3px solid #fdb827
+			border-radius: 0 0 35px 35px
+			width: 294px
+			height: 228px
+			background-size: cover
+			&:hover b
+				display: block
+	&__composition1, .menu__composition2, .menu__composition3, .menu__composition4, .menu__composition5
+		border: 3px solid #fdb827
+		border-radius: 30px
+		background: #000
+		margin: 0px
+		padding: 0
+		height: 325px
+		width: 290px
+		overflow: scroll
+		overflow-x: hidden
+		&__portion
+			width: 292px
+			margin: 0 -7px
+			h4
+				color: #fdb827
+				font-family: 'LifehackBasic'
+				font-size: 24px
+				font-weight: 400
+				padding: 10px 5px
+				border-bottom: 3px solid #fdb827
+				text-align: center
+			li
+				color: #fff
+				font-family: 'LifehackBasic'
+				font-size: 19px
+				font-weight: 400
+			ul
+				border-bottom: 3px solid #fdb827
+				padding: 10px
+				
+			.col-xs-4:last-child
+				border-left: 3px solid #fdb827
+			.col-xs-4:first-child
+				border-right: 3px solid #fdb827
+			p
+				color: #fdb827
+				font-family: 'LifehackBasic'
+				font-size: 19px
+				font-weight: 400
+				border: none
+				width: 100%
+				margin: 0
+				padding: 0
+				&:nth-child(even)
+					color: white
+					font-family: 'LifehackBasic'
+					font-size: 15px
+					font-weight: 400
+	&__calculator
+		width: 300px
+		margin-bottom: 3px
+		display: inline-block
+		h4
+			padding: 23px
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 30px
+			font-weight: 400
+			border: 3px solid #fdb827
+			border-radius: 30px 30px 0 0
+			background: #000
+			margin-bottom: -3px
+			display: inline-block
+			width: 248px
+			cursor: pointer
+		.col-xs-12 p
+			position: relative
+			background: #000
+			width: 150px
+			padding: 5px 0 5px 10px
+			color: #fdb827
+			font-family: 'LifehackBasic'
+			font-size: 17px
+			font-weight: 400
+			position: relative
+			select
+				position: absolute
+				right: 5px
+				bottom: 8px
+				border: none
+				outline: none
+				background: #fff
+				width: 26px
+				height: 25px
+				color: #000
+				background: url("../img/Calculator__arrow.png") no-repeat
+			&:last-child
+				border-top: 3px solid #fdb827
+				border-right: 3px solid #fdb827
+				border-bottom: 3px solid #fdb827
+			&:first-child
+				border: 3px solid #fdb827
+		&__total
+			background: #000
+			border-right: 3px solid #fdb827
+			border-left: 3px solid #fdb827
+			border-bottom: 3px solid #fdb827
+			border-bottom-left-radius: 30px
+			border-bottom-right-radius: 30px
+			p
+				color: #fdb827
+				font-family: 'LifehackBasic'
+				font-size: 24px
+				font-weight: 400
+				width: 80px
+				padding: 20px 0
+				display: inline-block
+				.colortextwhite1
+					color: white
+					font-family: 'LifehackBasic'
+					font-size: 34px
+					font-weight: 400
+			a
+				padding: 10px 30px
+				display: inline-block
+				background: #fdb827
+				color: black
+				font-family: 'LifehackBasic'
+				font-size: 20px
+				font-weight: 400
+				text-transform: uppercase
+				border-radius: 20px
+				margin-bottom: 15px
+				border: 3px solid #fdb827
+				&:hover
+					background: #000
+					color: #fdb827
+	&__blockfruit5
+		background: url("../img/menu__blockfruit5.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: 70px
+		&__salad
+			position: absolute
+			left: 0
+			bottom: -30px
+		&__meat
+			position: absolute
+			right: 0
+			bottom: -30px
+	@media ('max-width: 1024px')
+		.menu
+			&__blockfruit5__salad
+				display: none
+			&__blockfruit5__meat
+				display: none
+.view
+	h3
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 40px
+	&__block
+		width: 220px
+		display: inline-block
+		padding-bottom: 20px
+		img
+			border: 3px solid #fdb827
+			border-radius: 35px 35px 0 0
+		p
+			padding: 8px 32px
+			font-family: 'LifehackBasic'
+			font-size: 20px
+			font-weight: normal
+			font-style: normal
+			font-stretch: normal
+			line-height: normal
+			letter-spacing: normal
+			color: #fff
+			border: 3px solid #fdb827
+			border-radius: 0 0 25px 25px
+			background: #000
+			margin-top: -10px
+	&__blockfruit6
+		background: url("../img/view__blockfruit6.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: 70px
+		&__basket
+			position: absolute
+			left: 0
+			bottom: -60px
+		&__cole
+			position: absolute
+			right: 0
+			bottom: -50px
+	@media ('max-width: 1024px')
+		.view
+			&__blockfruit6__basket
+				display: none
+			&__blockfruit6__cole
+				display: none
+.cause
+	h3
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 10px
+	&__header
+		padding-bottom: 20px
+		li
+			width: 140px
+			display: inline-block
+			margin-left: -25px
+			cursor: pointer
+			p
+				color: #fdb827
+				font-family: 'LifehackBasic'
+				font-size: 22px
+				font-weight: 400
+				height: 60px
+		&_img
+			margin-top: 10px
+			width: 100px
+			height: 100px
+			border: 3px solid #fdb827
+			background: #000
+			border-radius: 180px
+			display: inline-block
+			img
+				padding-top: 24px
+				height: 50px
+	&__blockfruit7
+		background: url("../img/cause__blockfruit7.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: 70px
+		&__fish
+			position: absolute
+			left: 0
+			bottom: -50px
+		&__pepper
+			position: absolute
+			right: 0
+			bottom: -40px
+	@media ('max-width: 1024px')
+		.cause
+			&__header
+				display: none
+			&__blockfruit7__fish
+				display: none
+			&__blockfruit7__pepper
+				display: none
+.reviews
+	h3
+		color: #fdb827
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 40px
+	&__bottom
+		p
+			padding-bottom: 20px
+		a
+			color: white
+			font-family: 'LifehackBasic'
+			font-size: 24px
+			font-weight: 400
+			padding: 5px 45px
+			border: 3px solid #fdb827
+			background: #000
+			border-radius: 50px
+			position: relative
+			&:hover
+				color: #1c9f92
+		img
+			position: absolute
+			bottom: -15px
+			right: -15px
+			transform: rotate(-9deg)
+	&__blockfruit8
+		background: url("../img/header__blockfruit2.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: 70px
+		&__dow
+			position: absolute
+			left: 0
+			bottom: -22px
+		&__tomato
+			position: absolute
+			right: 0
+			bottom: -17px
+	@media ('max-width: 1024px')
+		.reviews
+			&__blockfruit8__dow
+				display: none
+			&__blockfruit8__tomato
+				display: none
+.guarantee
+	position: relative
+	z-index: 2
+	h3
+		color: #fff
+		font-family: 'LifehackBasic'
+		font-size: 30px
+		font-weight: 400
+		text-transform: uppercase
+		padding-top: 45px
+		padding-bottom: 10px
+	p
+		color: #fdb827
+		padding-bottom: 15px
+	&__block
+		background: url("../img/guarantee.png") no-repeat 
+		padding: 65px 110px
+		background-size: 100% 100%
+		p
+			max-width: 680px
+			padding-bottom: 45px
+			color: #fff
+			&:last-child
+				padding-bottom: 0
+	@media ('max-width: 767px')
+		.guarantee__block 
+			padding: 65px 20px
+
+	form
+		display: inline-block
+	&__form
+		padding: 5px
+		background: #000
+		width: 400px
+		border: 3px solid #fdb827
+		border-radius: 10px
+		margin-bottom: 10px
+		input[type="email"]
+			border: none
+			outline: none
+			background: #000
+			color: #fff
+			font-family: 'LifehackBasic'
+			font-size: 24px
+			font-weight: 400
+			line-height: 25px
+		button
+			background: #fdb827
+			border: none
+			outline: none
+			cursor: pointer
+			border-radius: 7px
+			margin-left: 33px
+			padding: 2px 43px
+			color: black
+			font-family: 'LifehackBasic'
+			font-size: 24px
+			font-weight: 400
+			line-height: 25px
+			text-transform: uppercase
+			border: 2px solid #fdb827
+			&:hover
+				background: #000
+				color: #fdb827
+	@media ('max-width: 500px')
+		.guarantee
+			&__form
+				width: 270px
+				button
+					margin-left: 0
+	&__blockfruit9
+		background: url("../img/guarantee__blockfruit9.png")
+		border-bottom: 4px solid #fdb827
+		border-top: 4px solid #fdb827
+		height: 63px
+		position: relative
+		margin-top: 70px
+		&__fish
+			position: absolute
+			left: 0
+			bottom: -15px
+		&__greens1
+			position: absolute
+			right: 0
+			bottom: -17px
+	@media ('max-width: 1024px')
+		.guarantee
+			&__blockfruit9__fish
+				display: none
+			&__blockfruit9__greens1
+				display: none
+
+			
+
+
